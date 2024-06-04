@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2C15EA82C0EA31000670C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EA72C0EA31000670C3D /* AppDelegate.swift */; };
+		E2C15EAA2C0EA31000670C3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EA92C0EA31000670C3D /* SceneDelegate.swift */; };
+		E2C15EB42C0EA31400670C3D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E2C15EB32C0EA31400670C3D /* Base */; };
+		E2C15F002C0EA41D00670C3D /* MetalVideoWritter.metal in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EBC2C0EA41D00670C3D /* MetalVideoWritter.metal */; };
+		E2C15F012C0EA41D00670C3D /* MetalVideoWritter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EBD2C0EA41D00670C3D /* MetalVideoWritter.swift */; };
+		E2C15F022C0EA41D00670C3D /* MetalView.metal in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EBF2C0EA41D00670C3D /* MetalView.metal */; };
+		E2C15F032C0EA41D00670C3D /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC02C0EA41D00670C3D /* MetalView.swift */; };
+		E2C15F042C0EA41D00670C3D /* AudioVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC22C0EA41D00670C3D /* AudioVideoManager.swift */; };
+		E2C15F052C0EA41D00670C3D /* MetaCameraDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC32C0EA41D00670C3D /* MetaCameraDevice.swift */; };
+		E2C15F062C0EA41D00670C3D /* MetalBaseFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC42C0EA41D00670C3D /* MetalBaseFilter.swift */; };
+		E2C15F072C0EA41D00670C3D /* MetalCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC52C0EA41D00670C3D /* MetalCamera.swift */; };
+		E2C15F082C0EA41D00670C3D /* MetalCameraCaptureOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC62C0EA41D00670C3D /* MetalCameraCaptureOutput.swift */; };
+		E2C15F092C0EA41D00670C3D /* MetalCameraDeviceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC72C0EA41D00670C3D /* MetalCameraDeviceInput.swift */; };
+		E2C15F0A2C0EA41D00670C3D /* MetalCameraFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC82C0EA41D00670C3D /* MetalCameraFileManager.swift */; };
+		E2C15F0B2C0EA41D00670C3D /* MetalCameraVideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EC92C0EA41D00670C3D /* MetalCameraVideoEncoder.swift */; };
+		E2C15F0C2C0EA41D00670C3D /* MetalDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECA2C0EA41D00670C3D /* MetalDevice.swift */; };
+		E2C15F0D2C0EA41D00670C3D /* MetalImageConsumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECB2C0EA41D00670C3D /* MetalImageConsumer.swift */; };
+		E2C15F0E2C0EA41D00670C3D /* MetalImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECC2C0EA41D00670C3D /* MetalImageSource.swift */; };
+		E2C15F0F2C0EA41D00670C3D /* MetalPassThroughFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECD2C0EA41D00670C3D /* MetalPassThroughFilter.swift */; };
+		E2C15F102C0EA41D00670C3D /* MetalRotateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECE2C0EA41D00670C3D /* MetalRotateFilter.swift */; };
+		E2C15F112C0EA41D00670C3D /* MetalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ECF2C0EA41D00670C3D /* MetalSize.swift */; };
+		E2C15F122C0EA41D00670C3D /* MetalStaticImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ED02C0EA41D00670C3D /* MetalStaticImageSource.swift */; };
+		E2C15F132C0EA41D00670C3D /* Blank.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2C15ED22C0EA41D00670C3D /* Blank.mp3 */; };
+		E2C15F142C0EA41D00670C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C15ED42C0EA41D00670C3D /* Assets.xcassets */; };
+		E2C15F152C0EA41D00670C3D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ED62C0EA41D00670C3D /* UIColor+Extension.swift */; };
+		E2C15F162C0EA41D00670C3D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ED72C0EA41D00670C3D /* UIFont+Extension.swift */; };
+		E2C15F172C0EA41D00670C3D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15ED82C0EA41D00670C3D /* UIView+Extension.swift */; };
+		E2C15F182C0EA41D00670C3D /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EDA2C0EA41D00670C3D /* Foundation.swift */; };
+		E2C15F192C0EA41D00670C3D /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EDC2C0EA41D00670C3D /* AppConstant.swift */; };
+		E2C15F1A2C0EA41D00670C3D /* CameraOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EDF2C0EA41D00670C3D /* CameraOptions.swift */; };
+		E2C15F1B2C0EA41D00670C3D /* SliderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE02C0EA41D00670C3D /* SliderData.swift */; };
+		E2C15F1C2C0EA41D00670C3D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE22C0EA41D00670C3D /* CameraViewController.swift */; };
+		E2C15F1D2C0EA41D00670C3D /* CameraViewController+CameraConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE32C0EA41D00670C3D /* CameraViewController+CameraConfig.swift */; };
+		E2C15F1E2C0EA41D00670C3D /* CameraViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE42C0EA41D00670C3D /* CameraViewController+Delegates.swift */; };
+		E2C15F1F2C0EA41D00670C3D /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE62C0EA41D00670C3D /* CameraButtonView.swift */; };
+		E2C15F202C0EA41D00670C3D /* ReelCameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE72C0EA41D00670C3D /* ReelCameraButtonView.swift */; };
+		E2C15F212C0EA41D00670C3D /* CameraTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EE92C0EA41D00670C3D /* CameraTypeCollectionViewCell.swift */; };
+		E2C15F222C0EA41D00670C3D /* CameraTypeToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EEA2C0EA41D00670C3D /* CameraTypeToggleView.swift */; };
+		E2C15F232C0EA41D00670C3D /* CameraOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EEC2C0EA41D00670C3D /* CameraOptionView.swift */; };
+		E2C15F242C0EA41D00670C3D /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EED2C0EA41D00670C3D /* CountdownTimerView.swift */; };
+		E2C15F252C0EA41D00670C3D /* CustomPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EEE2C0EA41D00670C3D /* CustomPermissionView.swift */; };
+		E2C15F262C0EA41D00670C3D /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EEF2C0EA41D00670C3D /* CustomSliderView.swift */; };
+		E2C15F272C0EA41D00670C3D /* CustomVideoTimerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EF02C0EA41D00670C3D /* CustomVideoTimerBarView.swift */; };
+		E2C15F282C0EA41D00670C3D /* ShortsPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EF32C0EA41D00670C3D /* ShortsPreviewController.swift */; };
+		E2C15F292C0EA41D00670C3D /* CameraPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EF62C0EA41D00670C3D /* CameraPreviewViewController.swift */; };
+		E2C15F2A2C0EA41D00670C3D /* PlayerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EF82C0EA41D00670C3D /* PlayerSliderView.swift */; };
+		E2C15F2B2C0EA41D00670C3D /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C15EFC2C0EA41D00670C3D /* CameraViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2C15EA42C0EA31000670C3D /* SnapSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C15EA72C0EA31000670C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C15EA92C0EA31000670C3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2C15EB32C0EA31400670C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C15EB52C0EA31400670C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C15EBC2C0EA41D00670C3D /* MetalVideoWritter.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = MetalVideoWritter.metal; sourceTree = "<group>"; };
+		E2C15EBD2C0EA41D00670C3D /* MetalVideoWritter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalVideoWritter.swift; sourceTree = "<group>"; };
+		E2C15EBF2C0EA41D00670C3D /* MetalView.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = MetalView.metal; sourceTree = "<group>"; };
+		E2C15EC02C0EA41D00670C3D /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		E2C15EC22C0EA41D00670C3D /* AudioVideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVideoManager.swift; sourceTree = "<group>"; };
+		E2C15EC32C0EA41D00670C3D /* MetaCameraDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaCameraDevice.swift; sourceTree = "<group>"; };
+		E2C15EC42C0EA41D00670C3D /* MetalBaseFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalBaseFilter.swift; sourceTree = "<group>"; };
+		E2C15EC52C0EA41D00670C3D /* MetalCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCamera.swift; sourceTree = "<group>"; };
+		E2C15EC62C0EA41D00670C3D /* MetalCameraCaptureOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCameraCaptureOutput.swift; sourceTree = "<group>"; };
+		E2C15EC72C0EA41D00670C3D /* MetalCameraDeviceInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCameraDeviceInput.swift; sourceTree = "<group>"; };
+		E2C15EC82C0EA41D00670C3D /* MetalCameraFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCameraFileManager.swift; sourceTree = "<group>"; };
+		E2C15EC92C0EA41D00670C3D /* MetalCameraVideoEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalCameraVideoEncoder.swift; sourceTree = "<group>"; };
+		E2C15ECA2C0EA41D00670C3D /* MetalDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalDevice.swift; sourceTree = "<group>"; };
+		E2C15ECB2C0EA41D00670C3D /* MetalImageConsumer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalImageConsumer.swift; sourceTree = "<group>"; };
+		E2C15ECC2C0EA41D00670C3D /* MetalImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalImageSource.swift; sourceTree = "<group>"; };
+		E2C15ECD2C0EA41D00670C3D /* MetalPassThroughFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalPassThroughFilter.swift; sourceTree = "<group>"; };
+		E2C15ECE2C0EA41D00670C3D /* MetalRotateFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalRotateFilter.swift; sourceTree = "<group>"; };
+		E2C15ECF2C0EA41D00670C3D /* MetalSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalSize.swift; sourceTree = "<group>"; };
+		E2C15ED02C0EA41D00670C3D /* MetalStaticImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalStaticImageSource.swift; sourceTree = "<group>"; };
+		E2C15ED22C0EA41D00670C3D /* Blank.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blank.mp3; sourceTree = "<group>"; };
+		E2C15ED42C0EA41D00670C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C15ED62C0EA41D00670C3D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E2C15ED72C0EA41D00670C3D /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		E2C15ED82C0EA41D00670C3D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E2C15EDA2C0EA41D00670C3D /* Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		E2C15EDC2C0EA41D00670C3D /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		E2C15EDF2C0EA41D00670C3D /* CameraOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOptions.swift; sourceTree = "<group>"; };
+		E2C15EE02C0EA41D00670C3D /* SliderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderData.swift; sourceTree = "<group>"; };
+		E2C15EE22C0EA41D00670C3D /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E2C15EE32C0EA41D00670C3D /* CameraViewController+CameraConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraViewController+CameraConfig.swift"; sourceTree = "<group>"; };
+		E2C15EE42C0EA41D00670C3D /* CameraViewController+Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CameraViewController+Delegates.swift"; sourceTree = "<group>"; };
+		E2C15EE62C0EA41D00670C3D /* CameraButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
+		E2C15EE72C0EA41D00670C3D /* ReelCameraButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReelCameraButtonView.swift; sourceTree = "<group>"; };
+		E2C15EE92C0EA41D00670C3D /* CameraTypeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2C15EEA2C0EA41D00670C3D /* CameraTypeToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTypeToggleView.swift; sourceTree = "<group>"; };
+		E2C15EEC2C0EA41D00670C3D /* CameraOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOptionView.swift; sourceTree = "<group>"; };
+		E2C15EED2C0EA41D00670C3D /* CountdownTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		E2C15EEE2C0EA41D00670C3D /* CustomPermissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPermissionView.swift; sourceTree = "<group>"; };
+		E2C15EEF2C0EA41D00670C3D /* CustomSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
+		E2C15EF02C0EA41D00670C3D /* CustomVideoTimerBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVideoTimerBarView.swift; sourceTree = "<group>"; };
+		E2C15EF32C0EA41D00670C3D /* ShortsPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortsPreviewController.swift; sourceTree = "<group>"; };
+		E2C15EF62C0EA41D00670C3D /* CameraPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewViewController.swift; sourceTree = "<group>"; };
+		E2C15EF82C0EA41D00670C3D /* PlayerSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSliderView.swift; sourceTree = "<group>"; };
+		E2C15EFC2C0EA41D00670C3D /* CameraViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C15EA12C0EA31000670C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C15E9B2C0EA31000670C3D = {
+			isa = PBXGroup;
+			children = (
+				E2C15EA62C0EA31000670C3D /* SnapSync */,
+				E2C15EA52C0EA31000670C3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C15EA52C0EA31000670C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EA42C0EA31000670C3D /* SnapSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C15EA62C0EA31000670C3D /* SnapSync */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15F2C2C0EA49B00670C3D /* Plist */,
+				E2C15EDE2C0EA41D00670C3D /* AppUtility */,
+				E2C15ED12C0EA41D00670C3D /* MetalCamera */,
+				E2C15ED52C0EA41D00670C3D /* Resources */,
+				E2C15EFF2C0EA41D00670C3D /* Scenes */,
+				E2C15EBB2C0EA33C00670C3D /* AppBase */,
+			);
+			path = SnapSync;
+			sourceTree = "<group>";
+		};
+		E2C15EBB2C0EA33C00670C3D /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EA92C0EA31000670C3D /* SceneDelegate.swift */,
+				E2C15EB22C0EA31400670C3D /* LaunchScreen.storyboard */,
+				E2C15EA72C0EA31000670C3D /* AppDelegate.swift */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		E2C15EBE2C0EA41D00670C3D /* MetalVideoWritter */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EBC2C0EA41D00670C3D /* MetalVideoWritter.metal */,
+				E2C15EBD2C0EA41D00670C3D /* MetalVideoWritter.swift */,
+			);
+			path = MetalVideoWritter;
+			sourceTree = "<group>";
+		};
+		E2C15EC12C0EA41D00670C3D /* MetalView */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EBF2C0EA41D00670C3D /* MetalView.metal */,
+				E2C15EC02C0EA41D00670C3D /* MetalView.swift */,
+			);
+			path = MetalView;
+			sourceTree = "<group>";
+		};
+		E2C15ED12C0EA41D00670C3D /* MetalCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EBE2C0EA41D00670C3D /* MetalVideoWritter */,
+				E2C15EC12C0EA41D00670C3D /* MetalView */,
+				E2C15EC22C0EA41D00670C3D /* AudioVideoManager.swift */,
+				E2C15EC32C0EA41D00670C3D /* MetaCameraDevice.swift */,
+				E2C15EC42C0EA41D00670C3D /* MetalBaseFilter.swift */,
+				E2C15EC52C0EA41D00670C3D /* MetalCamera.swift */,
+				E2C15EC62C0EA41D00670C3D /* MetalCameraCaptureOutput.swift */,
+				E2C15EC72C0EA41D00670C3D /* MetalCameraDeviceInput.swift */,
+				E2C15EC82C0EA41D00670C3D /* MetalCameraFileManager.swift */,
+				E2C15EC92C0EA41D00670C3D /* MetalCameraVideoEncoder.swift */,
+				E2C15ECA2C0EA41D00670C3D /* MetalDevice.swift */,
+				E2C15ECB2C0EA41D00670C3D /* MetalImageConsumer.swift */,
+				E2C15ECC2C0EA41D00670C3D /* MetalImageSource.swift */,
+				E2C15ECD2C0EA41D00670C3D /* MetalPassThroughFilter.swift */,
+				E2C15ECE2C0EA41D00670C3D /* MetalRotateFilter.swift */,
+				E2C15ECF2C0EA41D00670C3D /* MetalSize.swift */,
+				E2C15ED02C0EA41D00670C3D /* MetalStaticImageSource.swift */,
+			);
+			path = MetalCamera;
+			sourceTree = "<group>";
+		};
+		E2C15ED32C0EA41D00670C3D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15ED22C0EA41D00670C3D /* Blank.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		E2C15ED52C0EA41D00670C3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15ED32C0EA41D00670C3D /* Audio */,
+				E2C15ED42C0EA41D00670C3D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2C15ED92C0EA41D00670C3D /* UIKit-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15ED62C0EA41D00670C3D /* UIColor+Extension.swift */,
+				E2C15ED72C0EA41D00670C3D /* UIFont+Extension.swift */,
+				E2C15ED82C0EA41D00670C3D /* UIView+Extension.swift */,
+			);
+			path = "UIKit-Extension";
+			sourceTree = "<group>";
+		};
+		E2C15EDB2C0EA41D00670C3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15ED92C0EA41D00670C3D /* UIKit-Extension */,
+				E2C15EDA2C0EA41D00670C3D /* Foundation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2C15EDD2C0EA41D00670C3D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EDC2C0EA41D00670C3D /* AppConstant.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E2C15EDE2C0EA41D00670C3D /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EDB2C0EA41D00670C3D /* Extensions */,
+				E2C15EDD2C0EA41D00670C3D /* Other */,
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		E2C15EE12C0EA41D00670C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EDF2C0EA41D00670C3D /* CameraOptions.swift */,
+				E2C15EE02C0EA41D00670C3D /* SliderData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2C15EE52C0EA41D00670C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE22C0EA41D00670C3D /* CameraViewController.swift */,
+				E2C15EE32C0EA41D00670C3D /* CameraViewController+CameraConfig.swift */,
+				E2C15EE42C0EA41D00670C3D /* CameraViewController+Delegates.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2C15EE82C0EA41D00670C3D /* CameraButtons */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE62C0EA41D00670C3D /* CameraButtonView.swift */,
+				E2C15EE72C0EA41D00670C3D /* ReelCameraButtonView.swift */,
+			);
+			path = CameraButtons;
+			sourceTree = "<group>";
+		};
+		E2C15EEB2C0EA41D00670C3D /* CameraTypeToggleView */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE92C0EA41D00670C3D /* CameraTypeCollectionViewCell.swift */,
+				E2C15EEA2C0EA41D00670C3D /* CameraTypeToggleView.swift */,
+			);
+			path = CameraTypeToggleView;
+			sourceTree = "<group>";
+		};
+		E2C15EF12C0EA41D00670C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE82C0EA41D00670C3D /* CameraButtons */,
+				E2C15EEB2C0EA41D00670C3D /* CameraTypeToggleView */,
+				E2C15EEC2C0EA41D00670C3D /* CameraOptionView.swift */,
+				E2C15EED2C0EA41D00670C3D /* CountdownTimerView.swift */,
+				E2C15EEE2C0EA41D00670C3D /* CustomPermissionView.swift */,
+				E2C15EEF2C0EA41D00670C3D /* CustomSliderView.swift */,
+				E2C15EF02C0EA41D00670C3D /* CustomVideoTimerBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2C15EF22C0EA41D00670C3D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE52C0EA41D00670C3D /* Controller */,
+				E2C15EF12C0EA41D00670C3D /* View */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E2C15EF42C0EA41D00670C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF32C0EA41D00670C3D /* ShortsPreviewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2C15EF52C0EA41D00670C3D /* ShortsEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF42C0EA41D00670C3D /* Controller */,
+			);
+			path = ShortsEditor;
+			sourceTree = "<group>";
+		};
+		E2C15EF72C0EA41D00670C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF62C0EA41D00670C3D /* CameraPreviewViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E2C15EF92C0EA41D00670C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF82C0EA41D00670C3D /* PlayerSliderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2C15EFA2C0EA41D00670C3D /* VideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF72C0EA41D00670C3D /* Controller */,
+				E2C15EF92C0EA41D00670C3D /* View */,
+			);
+			path = VideoEditor;
+			sourceTree = "<group>";
+		};
+		E2C15EFB2C0EA41D00670C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EF22C0EA41D00670C3D /* Camera */,
+				E2C15EF52C0EA41D00670C3D /* ShortsEditor */,
+				E2C15EFA2C0EA41D00670C3D /* VideoEditor */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2C15EFD2C0EA41D00670C3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EFC2C0EA41D00670C3D /* CameraViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E2C15EFE2C0EA41D00670C3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EE12C0EA41D00670C3D /* Model */,
+				E2C15EFB2C0EA41D00670C3D /* View */,
+				E2C15EFD2C0EA41D00670C3D /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E2C15EFF2C0EA41D00670C3D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EFE2C0EA41D00670C3D /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E2C15F2C2C0EA49B00670C3D /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				E2C15EB52C0EA31400670C3D /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C15EA32C0EA31000670C3D /* SnapSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C15EB82C0EA31400670C3D /* Build configuration list for PBXNativeTarget "SnapSync" */;
+			buildPhases = (
+				E2C15EA02C0EA31000670C3D /* Sources */,
+				E2C15EA12C0EA31000670C3D /* Frameworks */,
+				E2C15EA22C0EA31000670C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapSync;
+			productName = SnapSync;
+			productReference = E2C15EA42C0EA31000670C3D /* SnapSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C15E9C2C0EA31000670C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E2C15EA32C0EA31000670C3D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E2C15E9F2C0EA31000670C3D /* Build configuration list for PBXProject "SnapSync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C15E9B2C0EA31000670C3D;
+			productRefGroup = E2C15EA52C0EA31000670C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C15EA32C0EA31000670C3D /* SnapSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C15EA22C0EA31000670C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C15F132C0EA41D00670C3D /* Blank.mp3 in Resources */,
+				E2C15F142C0EA41D00670C3D /* Assets.xcassets in Resources */,
+				E2C15EB42C0EA31400670C3D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C15EA02C0EA31000670C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C15F2A2C0EA41D00670C3D /* PlayerSliderView.swift in Sources */,
+				E2C15F1F2C0EA41D00670C3D /* CameraButtonView.swift in Sources */,
+				E2C15F1E2C0EA41D00670C3D /* CameraViewController+Delegates.swift in Sources */,
+				E2C15F022C0EA41D00670C3D /* MetalView.metal in Sources */,
+				E2C15F232C0EA41D00670C3D /* CameraOptionView.swift in Sources */,
+				E2C15F112C0EA41D00670C3D /* MetalSize.swift in Sources */,
+				E2C15F032C0EA41D00670C3D /* MetalView.swift in Sources */,
+				E2C15F0D2C0EA41D00670C3D /* MetalImageConsumer.swift in Sources */,
+				E2C15F0A2C0EA41D00670C3D /* MetalCameraFileManager.swift in Sources */,
+				E2C15F082C0EA41D00670C3D /* MetalCameraCaptureOutput.swift in Sources */,
+				E2C15F162C0EA41D00670C3D /* UIFont+Extension.swift in Sources */,
+				E2C15F1A2C0EA41D00670C3D /* CameraOptions.swift in Sources */,
+				E2C15F102C0EA41D00670C3D /* MetalRotateFilter.swift in Sources */,
+				E2C15F072C0EA41D00670C3D /* MetalCamera.swift in Sources */,
+				E2C15F1C2C0EA41D00670C3D /* CameraViewController.swift in Sources */,
+				E2C15EA82C0EA31000670C3D /* AppDelegate.swift in Sources */,
+				E2C15F202C0EA41D00670C3D /* ReelCameraButtonView.swift in Sources */,
+				E2C15F092C0EA41D00670C3D /* MetalCameraDeviceInput.swift in Sources */,
+				E2C15F182C0EA41D00670C3D /* Foundation.swift in Sources */,
+				E2C15F012C0EA41D00670C3D /* MetalVideoWritter.swift in Sources */,
+				E2C15F1B2C0EA41D00670C3D /* SliderData.swift in Sources */,
+				E2C15F052C0EA41D00670C3D /* MetaCameraDevice.swift in Sources */,
+				E2C15F2B2C0EA41D00670C3D /* CameraViewModel.swift in Sources */,
+				E2C15F242C0EA41D00670C3D /* CountdownTimerView.swift in Sources */,
+				E2C15F222C0EA41D00670C3D /* CameraTypeToggleView.swift in Sources */,
+				E2C15EAA2C0EA31000670C3D /* SceneDelegate.swift in Sources */,
+				E2C15F272C0EA41D00670C3D /* CustomVideoTimerBarView.swift in Sources */,
+				E2C15F042C0EA41D00670C3D /* AudioVideoManager.swift in Sources */,
+				E2C15F0B2C0EA41D00670C3D /* MetalCameraVideoEncoder.swift in Sources */,
+				E2C15F292C0EA41D00670C3D /* CameraPreviewViewController.swift in Sources */,
+				E2C15F192C0EA41D00670C3D /* AppConstant.swift in Sources */,
+				E2C15F062C0EA41D00670C3D /* MetalBaseFilter.swift in Sources */,
+				E2C15F212C0EA41D00670C3D /* CameraTypeCollectionViewCell.swift in Sources */,
+				E2C15F152C0EA41D00670C3D /* UIColor+Extension.swift in Sources */,
+				E2C15F0F2C0EA41D00670C3D /* MetalPassThroughFilter.swift in Sources */,
+				E2C15F122C0EA41D00670C3D /* MetalStaticImageSource.swift in Sources */,
+				E2C15F002C0EA41D00670C3D /* MetalVideoWritter.metal in Sources */,
+				E2C15F282C0EA41D00670C3D /* ShortsPreviewController.swift in Sources */,
+				E2C15F262C0EA41D00670C3D /* CustomSliderView.swift in Sources */,
+				E2C15F0E2C0EA41D00670C3D /* MetalImageSource.swift in Sources */,
+				E2C15F252C0EA41D00670C3D /* CustomPermissionView.swift in Sources */,
+				E2C15F172C0EA41D00670C3D /* UIView+Extension.swift in Sources */,
+				E2C15F1D2C0EA41D00670C3D /* CameraViewController+CameraConfig.swift in Sources */,
+				E2C15F0C2C0EA41D00670C3D /* MetalDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2C15EB22C0EA31400670C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C15EB32C0EA31400670C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C15EB62C0EA31400670C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2C15EB72C0EA31400670C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C15EB92C0EA31400670C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWQU72CRUB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSync/Plist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insta.SnapSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C15EBA2C0EA31400670C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWQU72CRUB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapSync/Plist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.insta.SnapSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C15E9F2C0EA31000670C3D /* Build configuration list for PBXProject "SnapSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C15EB62C0EA31400670C3D /* Debug */,
+				E2C15EB72C0EA31400670C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C15EB82C0EA31400670C3D /* Build configuration list for PBXNativeTarget "SnapSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C15EB92C0EA31400670C3D /* Debug */,
+				E2C15EBA2C0EA31400670C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2C15E9C2C0EA31000670C3D /* Project object */;
+}
